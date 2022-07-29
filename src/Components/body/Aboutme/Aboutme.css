@@ -1,0 +1,89 @@
+.insta-icon{
+    padding-left: 10px;
+}
+.Aboutwork{
+    margin-top: 80px;
+    margin-bottom: 40px;
+   
+    padding: 10px;
+}
+.workskillsection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   
+}
+.workskill{
+    flex-basis: 50%;
+}
+.work-para{
+    font-size: 18px;
+}
+.work-para1{
+    font-size: 18px;
+}
+.work-text-item-1{
+    font-size: 18px;
+}
+.work-paragraph{
+    flex-basis: 50%;
+    padding-left: 30px;
+    text-align: justify;
+    text-decoration: none;
+    color: #999;
+    font-size: 18px;
+}
+h2{
+    font-size: 40px;
+    font-style: normal;
+    margin: 20px 0px 10px;
+}
+.work-tag{
+    font-size: 14px;
+    font-weight: bold;
+    color: #689AF8;
+    font-family: Gtwalsheimprotrial, sans-serif;
+}
+.work-my-process{
+    font-size: 12px;
+    background: none;
+    color: white;
+    text-decoration: none;
+    font-family: Gtwalsheimprotrial, sans-serif;
+}
+
+@media only screen and (max-width: 720px){
+    
+  .workskillsection{
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .workskill{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    font-size: 30px;
+    margin-left: 55px;
+  }
+  .work-para{
+    font-size: 14px;
+  }
+  .work-para1{
+    font-size: 14px;
+  }
+  .work-text-item-1{
+    font-size: 14px;
+  }
+  .work-tag{
+    font-size: 12px;
+  }
+  .work-my-process{
+    font-size: 10px;
+  }
+}

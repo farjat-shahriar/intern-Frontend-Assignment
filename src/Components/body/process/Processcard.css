@@ -1,0 +1,91 @@
+.processmain{
+   padding: 20px;
+   box-sizing: border-box;
+   margin: 12px 0px 24px 8px;
+
+  
+}
+.main-card{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px 0px 0px;
+    position: relative;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Gtwalsheimprotrial, sans-serif;
+   
+}
+
+.item1{
+    font-size: 18px;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    padding-top: 30px;
+ 
+}
+.item2{
+    font-size: 18px;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    padding-top: 6px;
+}
+.item3{
+    font-size: 18px;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    padding-top: 6px;
+}
+.item4{
+    font-size: 18px;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    padding-top: 6px;
+}
+.card-id{
+    position: absolute;
+    opacity: 0.2;
+    left: -41px;
+    top: -15px;
+    color: #999;
+    font-size: 80px;
+   font-weight: 600;
+    font-family: Gtwalsheimprotrial, sans-serif;
+}
+
+.explore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+@media only screen and (max-width: 720px){
+    
+    .main-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .item1{
+        font-size: 14px;
+        
+     
+    }
+    .item2{
+        font-size: 14px;
+       
+    }
+    .item3{
+        font-size: 14px;
+  
+    }
+    .item4{
+        font-size: 14px;
+      
+    }
+    .card-title{
+       font-size: 20px;
+       
+    }
+
+}

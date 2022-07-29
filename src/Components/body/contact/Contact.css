@@ -1,0 +1,89 @@
+.contact{
+    height: 100%;
+    width: 100%;
+    margin-top: 55px;
+   
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #999;
+}
+.email{
+    font-weight: 600;
+    color: #fff;
+}
+.whatsnext{
+    font-size: 14px;
+    font-weight: 600;
+    color: #689AF8;
+    font-family: Gtwalsheimprotrial, sans-serif;
+  
+
+}
+.icon{
+    padding-left: 10px;
+  
+}
+.contact-info{
+    font-family: Gtwalsheimprotrial, sans-serif;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.email-section{
+    margin-top: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    background: none;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    font-weight: 600;
+    color: #fff;
+
+}
+.contactpara{
+    font-size: 18px;
+}
+.contactpara1{
+    font-size: 18px;
+}
+.contacttext-item-1{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 720px){
+    .whatsnext{
+        font-size: 12px;
+        
+    }
+    .contact-info{
+        font-size: 30px;
+    }
+    .conatct-info-paragraph{
+        font-size: 14px;
+    }
+    .email{
+        font-size: 14px;
+    }
+    .email-section{
+        font-size: 12px;
+    }
+    .info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contactpara{
+        font-size: 14px;
+      }
+      .contactpara1{
+        font-size: 14px;
+      }
+      .contacttext-item-1{
+        font-size: 14px;
+      }
+}

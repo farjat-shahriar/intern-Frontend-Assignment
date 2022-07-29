@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ffffff63;
+    font-weight: 600;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    display: flex; 
+    justify-content: space-between;
+}
+@media only screen and (max-width: 720px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

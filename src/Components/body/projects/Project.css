@@ -1,0 +1,30 @@
+.slick-next:before, .slick-prev:before {
+    
+    color: #1b3b77;
+}
+.max-width{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.projects{
+    margin-top: 15px;
+    margin-bottom:15px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.mydribble{
+    margin-top: 45px;
+    font-size: 12px;
+    background: none;
+    color: white;
+    text-decoration: none;
+    font-family: Gtwalsheimprotrial, sans-serif;
+
+}
+@media only screen and (max-width: 720px){
+    .projects{
+        margin-top: 10px;
+        margin-bottom:10px;
+        font-size: 30px;
+    }
+}

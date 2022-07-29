@@ -1,0 +1,40 @@
+.item-img{
+    height: 190px;
+    width: 260px;
+    background-color: white;
+    
+    box-shadow: rgb(0,0, 0/8%) 0px 3px 12px;
+    border-radius: 8px;
+    }
+    .item-image{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+       
+    }
+    .item-image:hover{
+       cursor: pointer;
+       opacity: 0.8;
+        
+    }
+    .item-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 6px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    @media only screen and (max-width: 720px){
+        .item-img{
+            height: 150px;
+            width: 220px;
+            background-color: white;
+            
+            box-shadow: rgb(0,0, 0/8%) 0px 3px 12px;
+            border-radius: 5px;
+            }
+            .item-title{
+                font-size: 15px;
+            }
+    }
